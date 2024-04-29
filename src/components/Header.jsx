@@ -23,7 +23,10 @@ function Header() {
             </li>
           </ul>
 
-          <button className="nav__btn lato-regular px-5 py-2 border border-white hover:border-[#f6ff8c]">
+          <button
+            className="nav__btn lato-regular px-5 py-2 border border-white 
+          hover:border-[#f6ff8c] tracking-wider"
+          >
             mgolden@gmai.com
           </button>
         </div>
