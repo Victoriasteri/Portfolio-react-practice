@@ -11,8 +11,11 @@ function HomePage() {
       <Header />
       <Animation />
       <div className="_container">
-        <div className="flex justify-between _container items-center">
-          <div className="w-[550px]">
+        <div
+          className="flex justify-between _container items-center pt-[50px] max-md:flex-col max-md:items-start
+        max-md:pt-[25px] max-lg:flex-col max-lg:items-start"
+        >
+          <div className="w-[550px] max-lg:w-[440]">
             <Intro />
             <Stats />
           </div>

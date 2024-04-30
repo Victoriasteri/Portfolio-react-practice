@@ -51,33 +51,6 @@ body {
   font-style: normal;
 }
 
-.heading {
-  background-color: red;
-}
-
 .lime {
   color: #f6ff8c;
-}
-
-/*.main {
-  background-image: url("../assets/woman.png");
-  background-position: center;
-  background-size: 550px;
-  background-repeat: no-repeat;
-  background-position: center top 45%;
-}*/
-
-.intro {
-  &__h {
-    font-size: 2.9rem;
-    line-height: 4rem;
-  }
-}
-
-.nav {
-  &__link {
-    &:hover {
-      border-bottom: 1px solid #ffffff;
-    }
-  }
 }
