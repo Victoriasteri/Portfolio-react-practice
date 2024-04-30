@@ -2,7 +2,7 @@ import arrow from "../assets/arrow.svg";
 function Intro() {
   return (
     <section className="intro">
-      <div className="_container pt-10 w-[459px]">
+      <div className="pt-10">
         <h1 className="intro__h krona-one-regular lime">
           Maya Golden<br></br>Graphic Designer
         </h1>
