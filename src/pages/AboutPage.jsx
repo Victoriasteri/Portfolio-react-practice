@@ -1,15 +1,15 @@
 import Header from "../components/Header";
 import MySkills from "../components/MySkills";
 import { useState } from "react";
-
+import photo from "../assets/photo.jpg";
 function AboutPage() {
   const [openModal, setOpenModal] = useState(false);
 
   return (
-    <div className="bg-[#222222] main min-h-lvh">
+    <div className="bg-[#222222] main min-h-[750px]">
       <Header />
       <div className="_container pt-10">
-        <h1 className="text-[43px] krona-one-regular leading-relaxed lime max-xl:text-[35px]">
+        <h1 className="text-[43px] krona-one-regular leading-relaxed lime text-center">
           About me
         </h1>
 
@@ -43,20 +43,7 @@ function AboutPage() {
             </p>
           </div>
           <div className="border border-[#f6ff8c] p-5 max-w-[490px]">
-            <p>
-              My design philosophy is simple: blend creativity with
-              functionality, and let imagination take the lead. I believe that
-              great design should not only be visually stunning but also
-              purposeful and meaningful. It's about sparking emotions, igniting
-              imaginations, and leaving a lasting impression.
-            </p>
-            <p className="pt-5">
-              I thrive on challenges and push the boundaries of conventional
-              design, always striving to exceed expectations and surprise myself
-              with what's possible. But above all, I believe in the
-              transformative power of design to inspire, connect, and make a
-              difference in the world.
-            </p>
+            <img src={photo} alt="My Photo" width={400} />
           </div>
         </div>
       </div>

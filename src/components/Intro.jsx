@@ -3,7 +3,7 @@ function Intro() {
   return (
     <section>
       <div>
-        <h1 className="text-[43px] krona-one-regular leading-relaxed lime max-xl:text-[35px]">
+        <h1 className="text-[43px] krona-one-regular leading-relaxed lime">
           Maya Golden<br></br>Graphic Designer
         </h1>
         <p className="w-[420px] pt-[50px] max-xl:pt-[30px] md:pt-[15px]">
