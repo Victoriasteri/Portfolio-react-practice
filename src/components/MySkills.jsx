@@ -3,13 +3,11 @@ import { programs } from "../constants/index.js";
 
 function MySkills({ closeModal }) {
   return (
-    <div className="">
-      <div
-        className="w-screen h-screen absolute bg-[#222222] z-10 top-0 opacity-90"
-        onClick={() => closeModal(false)}
-      ></div>
-
-      <div className="w-[500px] h-[500px] bg-white modal z-20 flex items-start justify-center">
+    <div
+      className="w-screen h-screen absolute bg-black z-1 top-0 bg-opacity-90"
+      onClick={() => closeModal(false)}
+    >
+      <div className="absolute bg-opacity-100 w-[500px] h-[500px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white flex items-start justify-center">
         <div className="w-[450px]">
           <div className="flex justify-end pt-6">
             <button
@@ -19,7 +17,7 @@ function MySkills({ closeModal }) {
               <img src={closeBtn} width={20} />
             </button>
           </div>
-          <h1 className="text-[#222222] font-bold text-[25px] leading-relaxed flex-grow text-center">
+          <h1 className="text-black font-bold text-[25px] leading-relaxed flex-grow text-center">
             My Skills
           </h1>
 

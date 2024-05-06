@@ -17,7 +17,7 @@ function WorksPage() {
                 key={work.img}
                 src={work.img}
                 width={300}
-                className="pt-10 hover:scale-105 cursor-pointer"
+                className="transition ease-in-out pt-10 hover:scale-105 cursor-pointer"
               />
             ))}
           </div>

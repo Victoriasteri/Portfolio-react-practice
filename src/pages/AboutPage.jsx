@@ -2,18 +2,19 @@ import Header from "../components/Header";
 import MySkills from "../components/MySkills";
 import { useState } from "react";
 import photo from "../assets/photo.jpg";
+
 function AboutPage() {
   const [openModal, setOpenModal] = useState(false);
 
   return (
-    <div className="bg-[#222222] main min-h-[750px]">
+    <div className="bg-[#222222] main min-h-lvh">
       <Header />
       <div className="_container pt-10">
         <h1 className="text-[43px] krona-one-regular leading-relaxed lime text-center">
           About me
         </h1>
 
-        <div className="flex items-start justify-between pt-10">
+        <div className="flex flex-row sm:flex-col md:flex-col items-start justify-between pt-10">
           <div className="text-[17px] max-w-[700px]">
             <p>
               I'm Maya Golden,
@@ -51,9 +52,7 @@ function AboutPage() {
         <button
           className="block m-auto bg-[#f6ff8c] px-[100px] py-4 font-bold text-[25px] text-black
           hover:bg-[#fff04d] hover:scale-105 active:bg-[#e9dd5a]"
-          onClick={() => {
-            setOpenModal(true);
-          }}
+          onClick={() => setOpenModal(true)}
         >
           See My Skills
         </button>
