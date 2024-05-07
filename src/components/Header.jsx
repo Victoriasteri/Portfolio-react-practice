@@ -12,7 +12,7 @@ function Header() {
   return (
     <section className="header w-full h-[70px] bg-[#383737]">
       <nav className="header__nav nav">
-        <div className="absolute top-8 right-12 transform -translate-x-1/2 -translate-y-1/2 md:hidden">
+        <div className="absolute top-8 right-10 max-sm:right-5 transform -translate-x-1/2 -translate-y-1/2 md:hidden">
           <AiOutlineMenu
             className={`w-[25px] h-[25px] cursor-pointer flex
             ${isOpen ? "hidden" : "flex"}`}
@@ -48,7 +48,7 @@ function Header() {
               className="nav__item pr-7 hover:text-[#f6ff8c] hover:scale-105
             transition ease-in-out max-md:pr-0"
             >
-              <Link to="/about ">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li
               className="nav__item pr-7 hover:text-[#f6ff8c] hover:scale-105

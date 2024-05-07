@@ -9,20 +9,19 @@ function HomePage() {
   return (
     <main className="bg-[#222222] main min-h-lvh">
       <Header />
-      <div className="flex flex-col items-center">
+      <div className="_container">
         <Animation />
-        <div className="_container">
-          <div
-            className="flex justify-between _container items-center pt-[50px] max-md:flex-col max-md:items-start
+
+        <div
+          className="flex justify-between _container items-center pt-[50px] max-md:flex-col max-md:items-start
         max-md:pt-[25px] max-lg:flex-col max-lg:items-start"
-          >
-            <div className="w-[550px] max-lg:w-[440]">
-              <Intro />
-              <Stats />
-            </div>
-            <div>
-              <Services />
-            </div>
+        >
+          <div className="max-w-[550px] max-lg:max-w-[440] lg:m-0 max-md:m-auto max-sm:m-auto max-sm:max-w-[300px]">
+            <Intro />
+            <Stats />
+          </div>
+          <div className="flex justify-center items-center pb-10 max-md:w-[230px] max-md:m-auto">
+            <Services />
           </div>
         </div>
       </div>
