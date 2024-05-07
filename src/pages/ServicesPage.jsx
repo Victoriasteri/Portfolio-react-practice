@@ -15,7 +15,7 @@ function ServicesPage() {
 
       <div
         className="flex flex-col justify-center items-center _container pt-5
-      sm:flex-row sm:flex-wrap sm:justify-between md:justify-evenly lg:justify-between"
+      sm:flex-row sm:flex-wrap sm:justify-between md:justify-evenly lg:justify-between pb-10"
       >
         <div className="flex flex-col items-center">
           <UxAnimation />
