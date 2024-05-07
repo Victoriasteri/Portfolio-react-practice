@@ -9,13 +9,13 @@ function AboutPage() {
   return (
     <div className="bg-[#222222] main min-h-lvh">
       <Header />
-      <div className="_container pt-10">
+      <div className="_container pt-10 md:pt-5">
         <h1 className="text-[43px] krona-one-regular leading-relaxed lime text-center">
           About me
         </h1>
 
-        <div className="flex flex-row sm:flex-col md:flex-col items-start justify-between pt-10">
-          <div className="text-[17px] max-w-[700px]">
+        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between justify-between pt-10 sm:items-center sm:justify-center md:pt-5">
+          <div className="text-[17px] xl:max-w-[700px] sm:max-w-[450px] md:w-[700px] lg:max-w-[500px]">
             <p>
               I'm Maya Golden,
               <span className="lime"> a passionate Graphic Designer </span>with
@@ -43,14 +43,14 @@ function AboutPage() {
               masterpiece in the making. Join me on this journey.
             </p>
           </div>
-          <div className="border border-[#f6ff8c] p-5 max-w-[490px]">
+          <div className="border border-[#f6ff8c] p-5 max-w-[490px] max-h-[310px] mt-10 md:mt-10 lg:mt-[8px]">
             <img src={photo} alt="My Photo" width={400} />
           </div>
         </div>
       </div>
-      <div className="_container pt-20">
+      <div className="_container pt-[70px] pb-20">
         <button
-          className="block m-auto bg-[#f6ff8c] px-[100px] py-4 font-bold text-[25px] text-black
+          className="block m-auto bg-[#f6ff8c] px-[100px] py-4 font-bold text-[20px] text-black
           hover:bg-[#fff04d] hover:scale-105 active:bg-[#e9dd5a]"
           onClick={() => setOpenModal(true)}
         >

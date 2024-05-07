@@ -11,7 +11,7 @@ function WorksPage() {
             My Works
           </h1>
 
-          <div className="flex justify-between flex-wrap">
+          <div className="flex flex-col justify-center items-center pb-10 md:flex-row md:flex-wrap md:justify-evenly">
             {works.map((work) => (
               <img
                 key={work.img}
