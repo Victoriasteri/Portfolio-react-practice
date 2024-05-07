@@ -13,7 +13,10 @@ function ServicesPage() {
         My Services
       </h1>
 
-      <div className="flex flex-wrap justify-between _container pt-10">
+      <div
+        className="flex flex-col justify-center items-center _container pt-5
+      sm:flex-row sm:flex-wrap sm:justify-between md:justify-evenly lg:justify-between"
+      >
         <div className="flex flex-col items-center">
           <UxAnimation />
           <h3 className="font-bold text-[25px]">UX Design</h3>
