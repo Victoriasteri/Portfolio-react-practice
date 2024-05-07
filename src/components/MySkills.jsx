@@ -25,7 +25,7 @@ function MySkills({ closeModal }) {
             {programs.map((program) => (
               <div
                 key={program.img}
-                className="flex flex-col items-center pt-6"
+                className="flex flex-col items-center pt-4"
               >
                 <img src={program.img} width={90} />
                 <span className="text-black">{program.level}</span>
